@@ -125,5 +125,5 @@ pip-log.txt
 *.jar
 test/
 target/
-
 dependency-reduced-pom\.xml
+.gradle
