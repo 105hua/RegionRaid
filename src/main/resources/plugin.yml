@@ -1,5 +1,5 @@
 name: RegionRaid
-version: 1.1.0
+version: 1.1.1
 main: com.luffbox.regionraid.RegionRaid
 api-version: '1.20'
 depend: [WorldGuard]
