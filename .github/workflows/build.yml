@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
