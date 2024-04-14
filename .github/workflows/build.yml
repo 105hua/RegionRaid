@@ -20,6 +20,8 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
       - name: Make gradlew executable
         run: chmod +x ./gradlew
+      - name: Run Gradle Wrapper
+        run: ./gradlew wrapper
       - name: Build with Gradle
         run: ./gradlew build --stacktrace
       - name: Upload artifact
