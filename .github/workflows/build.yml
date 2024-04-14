@@ -21,7 +21,7 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
       - name: Run Gradle Wrapper
-        run: ./gradlew wrapper
+        run: ./gradlew wrapper --gradle-version 8.7
       - name: Build with Gradle
         run: ./gradlew build --stacktrace
       - name: Upload artifact
